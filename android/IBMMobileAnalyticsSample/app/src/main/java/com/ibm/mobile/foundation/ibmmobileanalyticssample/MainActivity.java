@@ -27,7 +27,7 @@ import java.net.URISyntaxException;
 
 public class MainActivity extends AppCompatActivity {
     private WLClient client;
-    private static final Logger logger = Logger.getInst ance("IBMMASample");
+    private static final Logger logger = Logger.getInstance("IBMMASample");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
