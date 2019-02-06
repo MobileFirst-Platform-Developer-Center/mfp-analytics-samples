@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">IBMMobileAnalyticsSample</string>
+    <string name="customData">{\"CurPage\":\"LoginPage\"}</string>
+</resources>
