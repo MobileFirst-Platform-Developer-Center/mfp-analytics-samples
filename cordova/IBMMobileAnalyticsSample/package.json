@@ -1,0 +1,17 @@
+{
+  "name": "com.ibm.mobile.foundation.ibmmobileanalyticscordovasample",
+  "version": "1.0.0",
+  "displayName": "IBMMobileAnalyticsCordovaSample",
+  "cordova": {
+    "platforms": [],
+    "plugins": {
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-whitelist": {}
+    }
+  },
+  "dependencies": {
+    "cordova-plugin-okhttp": "^2.0.0",
+    "cordova-plugin-splashscreen": "~3",
+    "cordova-plugin-whitelist": "~1"
+  }
+}
