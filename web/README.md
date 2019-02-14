@@ -3,11 +3,11 @@
 US Government Users Restricted Rights - Use, duplication or
 disclosure restricted by GSA ADP Schedule Contract with IBM Corp.-->
 
-# IBM MobileFirst Platform Foundation Web Sample Application
+# IBM MobileFirst Platform Foundation Web Sample Application for Analytics
 Use this sample application to get started with development of web applications.
-The application uses the IBM MobileFirst SDK to connect to a local or remote server, and obtain an access token.
+The application uses the IBM MobileFirst SDK to connect to a local or remote server, and obtain an access token and demonstrate various analytics features
 
-**Note** Due to the constraints of the same-origin policy, your MobileFirst Server and your web server must be behind the same host. To satisfy this requirement, the sample applications includes a node web server at `http://localhost:9081`. This server forwards MobileFirst requests to the MobileFirst Server. For more information, see [here](http://www.ibm.com/support/knowledgecenter/SSHS8R_8.0.0/com.ibm.worklight.dev.doc/dev/c_developing_web_apps.html#c_web_apps_dev__same_origin_policy).
+**Note** Due to the constraints of the same-origin policy, your MobileFirst Server and your web server must be behind the same host. To satisfy this requirement, the sample applications includes a node web server at `http://localhost:9081`. This server forwards MobileFirst requests to the MobileFirst Server. 
 
 **Getting Started**
 1. Register the sample application to MobileFirst Server. You can do this from the MobileFirst Operations Console, or by using the MobileFirst Platform CLI (`mfpdev`). During registration, set the application ID (`applicationId`) to `com.ibm.mfpstarterweb`.
