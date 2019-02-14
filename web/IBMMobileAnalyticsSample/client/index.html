@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
+
+   <!-- Import requireJS which loads our applicative index.js file -->
+  <script data-main="js/index" src="node_modules/requirejs/require.js"></script>
+
+  <title>MFP Starter - Web</title>
+</head>
+
+<body>
+
+  <!--<div id="main">
+    <div id="main_title">Hello MobileFirst</div>
+    <div id="main_status"></div>
+    <div id="main_info"></div>
+  </div>
+
+  <div id="button_content">
+    <button id="ping_button">Ping MobileFirst Server</button>
+  </div>-->
+
+  <div id="main_title">MFP Mobile Analytics Sample</div>
+  <table style="width:100%">
+      <tr>
+          <th>
+              <input type="text" id="user_context_text" placeholder="User ID ...">
+          </th>
+      </tr>
+      <tr>
+          <th>
+              <button id="setuser_button"  onClick="demoApp.userContext(document.getElementById('user_context_text').value)">SET USER</button>
+          </th>
+      </tr>
+      <tr>
+        <th>
+              <input type="text" id="call_http_api" value="http://www.httpbin.org/">
+        </th>
+      </tr>
+      <tr>
+          <th>
+              <button id="callhttpapi_button" onClick="demoApp.callHttpApi(document.getElementById('call_http_api').value)">CALL HTTP API</button>
+          </th>
+      </tr>
+      <tr>
+          <th>
+              <input type="text" id="log_message" value="Sample Log Message">
+                  </th>
+      </tr>
+      <tr>
+          <th>
+              <button id="logmessage_button" onClick="demoApp.log(document.getElementById('log_message').value)">LOG MESSAGE</button>
+          </th>
+      </tr>
+      <tr>
+          <th>
+              <input type="text" id="log_custom_message" value='{"CurPage":"LoginPage"}'>
+                  </th>
+      </tr>
+      <tr>
+          <th>
+              <button id="logcustom_button" onClick="demoApp.logCustom(document.getElementById('log_custom_message').value)">SEND CUSTOM ANALYTICSDATA</button>
+          </th>
+      </tr>
+      <tr>
+          <th>
+              <button id="adapter_button" onClick="demoApp.callAdapter()">CALL ADAPTER</button>
+          </th>
+      </tr>
+      <tr>
+        <th>
+            <button id="crash_button" onClick="demoApp.crashMe()">CRASH ME</button>
+        </th>
+    </tr>    
+  </table>
+</body>
+
+</html>
