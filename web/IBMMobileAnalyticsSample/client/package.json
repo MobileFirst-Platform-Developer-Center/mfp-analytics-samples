@@ -1,0 +1,10 @@
+{
+  "name": "ibmmobileanalyticssample",
+  "version": "1.0.0",
+  "description": "IBMMobileAnalyticsSample-client holds the ibm-mfp-sdk and requirejs, two node_modules that are mandatory for this sample",
+  "dependencies": {
+    "requirejs": "latest"
+  },
+  "author": "IBM MobileFirst Platform Foundation - Bluemix Mobile Analytics",
+  "license": "SEE LICENSE IN README.MD"
+}
