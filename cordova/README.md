@@ -13,6 +13,9 @@ The application uses the IBM MobileFirst SDK to connect to a local or remote ser
 * Change directory into IBMMobileAnalyticsSample.
 * At this point no platforms are included.  To add a platform(s) to the IBMMobileAnalyticsSample application run the 'cordova platform add' command:
   * cordova platform add <android|ios>
+* Add following plugins.
+  * cordova plugin add cordova-plugin-mfp
+  * cordova plugin add cordova-plugin-mfp-analytics
 * Run the 'mfpdev app register' command to register the sample application on the MobileFirst Server:
   * mfpdev app register
   * Follow any prompts to include server and client application details.
